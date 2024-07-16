@@ -14,7 +14,7 @@
     border: 0;
 }
 .icon_go{
-  margin-right: 10px
+  margin-right: 10px;
 }
 .activeLink{
   background-color: rgba(22, 165, 177, 0.66);
@@ -243,7 +243,7 @@ body {
     text-align: center; } }
 .bh_section_title h2> span {
 	    font-size: 23px;
-	color: #46e700;}
+	color: #fa1919;}
 .bh_section_title h2 {
   font-size: 30px;
   color: #222222;
@@ -310,7 +310,7 @@ body {
   margin-right: -15px; }
 
 .bh_header_top_right.text-right a {
-  background-color: #7ce723;
+  background-color: #368bec;
   width: 200px;
   height: 100%;
   font-size: 13px;
@@ -786,8 +786,8 @@ form.searchForm input + input {
       .bh_hero_text .bh_slider_btn a {
         margin: 0; } }
   .bh_hero_text .bh_slider_btn1 {
-    background: #0eff0ad6;
-    border: 1px solid #0eff0ad6;
+    background: #0a91ffd6;
+    border: 1px solid #0a91ffd6;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -907,13 +907,13 @@ text-transform: uppercase;}
 .bh_about_btn {
   margin-top: 34px; }
   .bh_about_btn a {
-    border: 1px solid #0eff0ad6;
+    border: 1px solid #0c3cd99c;
     color: #222222;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s; }
   .bh_about_btn a:hover {
-    background: #0eff0ad6;
-    border: 1px solid #0eff0ad6;
+    background: #0c3cd99c;
+    border: 1px solid #0c3cd99c;
     color: #fff; }
 
 /* ==================================== Get-Consult-Area Css ======================= */
@@ -926,7 +926,7 @@ text-transform: uppercase;}
       padding: 42px 0px; } }
 
 .bh_get_consult_area:after {
-  background: #1ce7199c;
+  background: #0c3cd99c;
   opacity: .9; }
 
 .bh_consult_left {
@@ -1145,7 +1145,7 @@ text-transform: uppercase;}
     width: 100%; }
 
 .bh_post_date, .bh_history_left_single_date {
-  background: #2eff08;
+  background: #084cd5;
   border-radius: 0 26px 26px 0;
   height: 50px;
   position: absolute;
@@ -1525,12 +1525,12 @@ text-transform: uppercase;}
       .bh_footer_area .bh_footer_top ul {
         margin-top: 76px; } }
     .bh_footer_area .bh_footer_top ul li a {
-      color: #8b8b8b;
+      color: #1658f3;
       text-transform: capitalize;
       -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s; }
     .bh_footer_area .bh_footer_top ul li a:hover {
-      color: #198ce7; }
+      color: #e71c19; }
     .bh_footer_area .bh_footer_top .bh_recent_projects {
       padding-left: 40px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1573,7 +1573,7 @@ text-transform: uppercase;}
     .bh_footer_area .bh_footer_bottom_content span {
       color: #656565; }
       .bh_footer_area .bh_footer_bottom_content span i {
-        color: #46e700; }
+        color: #fa0e0e; }
 
 /* ==================================== All Page Common Css ======================= */
 .bh_allPage_area {
@@ -1606,7 +1606,7 @@ text-transform: uppercase;}
     text-transform: capitalize;
     font-size: 16px; }
   .breadcrumb li.active a {
-    color: #46e700; }
+    color: #198ce7; }
   .breadcrumb li + li::before {
     color: #b9b9b9;
     content: "/ ";
@@ -1665,7 +1665,7 @@ text-transform: uppercase;}
       padding-right: 0px; } }
 
 .bh_history_left_content:after {
-  background: #2eff08;
+  background: #0539c9;
   height: 930px;
   width: 5px;
   z-index: -1;
@@ -1948,7 +1948,8 @@ text-transform: uppercase;}
 /* ==============================================================================================
     ************** Service Page ******************
 ================================================================================================= */
-.bh_serviceImg_area {
+
+  .bh_serviceImg_area {
   padding-top: 110px;
   padding-bottom: 30px; }
   .bh_serviceImg_area .bh_service_singleImg {
@@ -1967,7 +1968,7 @@ text-transform: uppercase;}
     .bh_serviceImg_area .bh_service_singleImg .bh_serviceImg_text {
 		cursor: pointer;
       position: absolute;
-      background: #1ce719;
+      background: #3489ea;
       left: 5px;
       bottom: 5px;
       width: /*260px*/362px;
@@ -2142,9 +2143,48 @@ body {
 /* ==============================================================================================
     ************** Team-Member Page ******************
 ================================================================================================= */
-.bh_team_menber_area {
+/* .bh_team_menber_area {
   padding-top: 102px;
-  padding-bottom: 12px; }
+  padding-bottom: 12px; } */
+  .bh_team_menber_area {
+    padding-top: 102px;
+    padding-bottom: 12px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-md-3,
+  .col-sm-4,
+  .col-xs-12 {
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Adjust spacing between rows */
+  }
+  
+  @media (min-width: 992px) {
+    .col-md-3 {
+      flex: 0 0 24%;
+      max-width: 24%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-4 {
+      flex: 0 0 32%;
+      max-width: 32%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .col-xs-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
 
 .bh_single_team {
   background: #fff;

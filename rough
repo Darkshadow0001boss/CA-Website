@@ -1,0 +1,185 @@
+<div class="bh_allPage_area">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="bh_allPage_text text-center">
+          <h1>Staff member</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bh_team_menber_area">
+  <div class="container">
+    <div class="row">
+      <div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="bh_single_team">
+            <div class="bh_team_img">
+              <img
+                src="images/user_profile_female.png"
+                alt="Vishal Sharma image"
+              />
+            </div>
+            <div class="bh_team_title bh_team_title2">
+              <h3>Vishal Sharma</h3>
+              <p><span>CA, MBA, B.COM</span></p>
+            </div>
+            <div
+              class="bh_team_hover"
+              data-toggle="modal"
+              data-target="#vishal"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="bh_single_team">
+            <div class="bh_team_img">
+              <img
+                src="images/user_profile_male.png"
+                alt="CA. DIPIN SAHANI image"
+              />
+            </div>
+            <div class="bh_team_title bh_team_title2">
+              <h3>Manish Kumar</h3>
+              <p><span>CA, B.COM</span></p>
+            </div>
+            <div
+              class="bh_team_hover"
+              data-toggle="modal"
+              data-target="#dipin"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="bh_single_team">
+            <div class="bh_team_img">
+              <img
+                src="images/user_profile_male.png"
+                alt="CA. AADI AGARWAL image"
+              />
+            </div>
+            <div class="bh_team_title bh_team_title2">
+              <h3>Megha Chauhan</h3>
+              <p><span>CA, B.COM</span></p>
+            </div>
+            <div
+              class="bh_team_hover"
+              data-toggle="modal"
+              data-target="#dipin"
+            ></div>
+          </div>
+        </div>
+        <div>
+          <div class="col-md-3 col-sm-4 col-xs-12">
+            <div class="bh_single_team">
+              <div class="bh_team_img">
+                <img
+                  src="images/user_profile_male.png"
+                  alt="CA. AADI AGARWAL image"
+                />
+              </div>
+              <div class="bh_team_title bh_team_title2">
+                <h3>Vidhi Raheja</h3>
+                <p><span>CA, B.COM</span></p>
+              </div>
+              <div
+                class="bh_team_hover"
+                data-toggle="modal"
+                data-target="#dipin"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="bh_single_team">
+                <div class="bh_team_img">
+                  <img
+                    src="images/user_profile_male.png"
+                    alt="CA. AADI AGARWAL image"
+                  />
+                </div>
+                <div class="bh_team_title bh_team_title2">
+                  <h3>Yash Jain</h3>
+                  <p><span>CA, B.COM</span></p>
+                </div>
+                <div
+                  class="bh_team_hover"
+                  data-toggle="modal"
+                  data-target="#dipin"
+                ></div>
+              </div>
+            </div>
+            <div>
+              <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="bh_single_team">
+                  <div class="bh_team_img">
+                    <img
+                      src="images/user_profile_male.png"
+                      alt="CA. AADI AGARWAL image"
+                    />
+                  </div>
+                  <div class="bh_team_title bh_team_title2">
+                    <h3>Hariom</h3>
+                    <p><span>CA, B.COM</span></p>
+                  </div>
+                  <div
+                    class="bh_team_hover"
+                    data-toggle="modal"
+                    data-target="#dipin"
+                  ></div>
+                </div>
+              </div>
+              <div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                  <div class="bh_single_team">
+                    <div class="bh_team_img">
+                      <img
+                        src="images/user_profile_male.png"
+                        alt="CA. AADI AGARWAL image"
+                      />
+                    </div>
+                    <div class="bh_team_title bh_team_title2">
+                      <h3>Meeran Khan</h3>
+                      <p><span>CA, B.COM</span></p>
+                    </div>
+                    <div
+                      class="bh_team_hover"
+                      data-toggle="modal"
+                      data-target="#dipin"
+                    ></div>
+                  </div>
+                </div>
+                <div>
+                  <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="bh_single_team">
+                      <div class="bh_team_img">
+                        <img
+                          src="images/user_profile_male.png"
+                          alt="CA. AADI AGARWAL image"
+                        />
+                      </div>
+                      <div class="bh_team_title bh_team_title2">
+                        <h3>Neha</h3>
+                        <p><span>CA, B.COM</span></p>
+                      </div>
+                      <div
+                        class="bh_team_hover"
+                        data-toggle="modal"
+                        data-target="#dipin"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
